@@ -49,7 +49,8 @@ void displayAll(ListStudent* ls) {
     Student* current = ls->head;
     cout << "\n--- Student List ---" << endl;
     while (current != nullptr) {
-        cout << "ID: " << current->id<< " , Name: " << current->name<< " , Year: " << current->year<< " , Program: " << current->program << endl;
+        cout << "ID: " << current->id<< " , Name: " << current->name<< " , Year: " << current->year
+        << " , Program: " << current->program << endl;
         current = current->next;
     }
     cout << "--------------------" << endl;

@@ -44,7 +44,6 @@ void add(Student s, ListStudent* ls) {
     }
 };
 
-
 int main() {
     ListStudent* myList = createEmptyList();
 
